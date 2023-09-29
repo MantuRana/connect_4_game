@@ -65,24 +65,36 @@ h1{
 }
 
 
-@media(min-width:600px) {
+               /* size will be greater than 600px then apply this query */ 
+@media(min-width:800px) {
 
+    h1{
+margin-left: 10%;
+    }
+    h2{
+        margin-left: 10%; 
+    }
     #board{
-
         margin-left: 35%;
          height: 390px;
-    width: 360px;
-    
+    width: 500px;
+    /* background-color: rgb(28, 31, 31);
+    border: 5px solid rgb(242, 242, 245);
+    box-shadow: 0px 0px 2px 10px rgb(19, 17, 17);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
     }
-.title{
+.tile{
    
-       height:50px;
-    width: 50px;
-   
+       height:55px;
+    width: 55px;
+    /* background-color: white;
+    border-radius: 50%;
+    border: 5px solid rgb(16, 16, 18);
+    padding: 0px; */
 }
-
-    
-
 }
 
 
